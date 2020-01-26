@@ -1,0 +1,13 @@
+
+number = int(input('Введите число: '))
+simplenumber = False
+for i in range(2, number):
+    if number % i == 0:
+        break
+    else:
+        simplenumber = True
+if simplenumber:
+    print("Это простое число!!!")
+else:
+    print('Это составное число!')
+
